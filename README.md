@@ -6,8 +6,8 @@ To download full PmagPy functionality, see the [PmagPy repository](https://githu
 
 In order to install this software, you’ll need to download and install [Microsoft Visual C++ Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=29).  This provides some backend dependencies that let our software run.
 
-Next, get started by downloading the zip file (see links below) and putting the resulting folder on your desktop. You'll need to "extract all" files.  Inside the PmagPy-Standalone folder you will find icons for QuickMagIC and MakeMagIC. Double click the program you wish to run and you're ready to go!
+Next, get started by downloading the zip file (see links below) and putting the resulting folder on your desktop. You'll need to "extract all" files.  Inside the PmagPy-Standalone folder you will find icons for QuickMagIC and MakeMagIC. (Hint: sort by "type" to bring both applications to the top of the list.)  Double click the program you wish to run and you're ready to go!
 
 Click [here to download](https://github.com/moonshoes87/PmagPy-Standalone-Windows/releases/latest).
 
-Note: this is still a pre-release.  There are still bugs to be found!  We will be making a lot of improvements in the next few weeks, but please feel free to send any bug reports to ljonestrask@ucsd.edu.  
+Note: this is a pre-release.  There are still bugs to be found!  We will be making a lot of improvements in the next few weeks, including streamlining and simplifying the installation process, but please feel free to send any bug reports to ljonestrask@ucsd.edu.  
