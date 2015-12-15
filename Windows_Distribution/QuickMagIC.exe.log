@@ -1,0 +1,15 @@
+C:\Users\nebula\Documents\PmagPy\dist\library.zip\matplotlib\__init__.py:872: UserWarning: svg.embed_char_paths is deprecated and replaced with svg.fonttype; please use the latter.
+C:\Users\nebula\Documents\PmagPy\dist\library.zip\matplotlib\__init__.py:1350: UserWarning:  This call to matplotlib.use() has no effect
+because the backend has already been chosen;
+matplotlib.use() must be called *before* pylab, matplotlib.pyplot,
+or matplotlib.backends is imported for the first time.
+
+Traceback (most recent call last):
+  File "QuickMagIC.py", line 14, in <module>
+ImportError: No module named pmag_basic_dialogs
+C:\Users\nebula\Documents\PmagPy\dist\library.zip\matplotlib\__init__.py:872: UserWarning: svg.embed_char_paths is deprecated and replaced with svg.fonttype; please use the latter.
+C:\Users\nebula\Documents\PmagPy\dist\library.zip\matplotlib\__init__.py:1350: UserWarning:  This call to matplotlib.use() has no effect
+because the backend has already been chosen;
+matplotlib.use() must be called *before* pylab, matplotlib.pyplot,
+or matplotlib.backends is imported for the first time.
+
