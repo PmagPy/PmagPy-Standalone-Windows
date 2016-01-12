@@ -11,3 +11,7 @@ Next, get started by downloading the zip file (see links below) and putting the 
 Note: this is a new release.  There are still bugs to be found!  We will be making a lot of improvements in the next few weeks, but please feel free to send any bug reports to ljonestrask@ucsd.edu.  
 
 Click here for the [latest stable release](http://github.com/moonshoes87/PmagPy-Standalone-Windows/releases/latest).
+
+This software may be freely distributed; however, please see [license.txt](https://github.com/moonshoes87/PmagPy-Standalone-Windows/blob/master/license.txt) for details.
+
+This software is powered by Enthought Canopy.
