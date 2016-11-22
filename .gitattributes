@@ -1,2 +1,2 @@
-MagICGUI3Win64.exe filter=lfs diff=lfs merge=lfs -text
-PmagGUIWin64.exe filter=lfs diff=lfs merge=lfs -text
+
+*.exe filter=lfs diff=lfs merge=lfs -text
