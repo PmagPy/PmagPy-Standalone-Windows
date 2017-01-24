@@ -10,4 +10,4 @@ Click here for the [latest stable release](http://github.com/PmagPy/PmagPy-Stand
 
 Dependencies: In order to run this software, you may need to download and install [Microsoft Visual C++ Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=29).  This provides some backend dependencies that may not come standard with your computer.
 
-Licensing: This software may be freely distributed; however, please see [license.txt](https://github.com/PmagPy/PmagPy-Standalone-Windows/blob/master/license.txt) for details.
+Licensing: This software may be freely distributed; however, please see [license.txt](https://github.com/PmagPy/PmagPy-Standalone-Windows/blob/master/license.txt) for details. 
