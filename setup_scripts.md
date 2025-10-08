@@ -22,21 +22,21 @@ Compiled the program:
 
 I used essentially the same pmag_gui.spec in the ```PmagPy``` repository to generate the executable file. Minor changes were necessary in the ```hiddenimports``` section where I had to add a few scipy modules in order for the excutable to initialize without crashing. That version of .spec file is saved here.
 
-## A workflow that workedon 10/7/2025 for Tony Pivarunas on Windows 10
+## A workflow that worked on 10/7/2025 for Tony Pivarunas on Windows 10
 
-Made a new conda environment.
+Made a new mamba environment.
 
-```C:\Users\apiv9>mamba create -n pmag_gui_compile python=3.9.13```
+```mamba create -n pmag_gui_compile python=3.9.13```
 
 Activated the environment.
 
-```C:\Users\apiv9>mamba activate pmag_gui_compile```
+```mamba activate pmag_gui_compile```
 
 Used mamba to install required packages in two waves.
 
-```(pmag_gui_compile) C:\Users\apiv9>mamba install matplotlib numpy scipy pandas```
+```(pmag_gui_compile) mamba install matplotlib numpy scipy pandas```
 
-```(pmag_gui_compile) C:\Users\apiv9>mamba install wxPython pyinstaller```
+```(pmag_gui_compile) mamba install wxPython pyinstaller```
 
 Changed into my cloned PmagPy directory
 
