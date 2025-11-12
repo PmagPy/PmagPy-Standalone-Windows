@@ -20,6 +20,32 @@ Compiled the program:
 
 ```pyinstaller pmag_gui.spec```
 
+I used essentially the same pmag_gui.spec in the ```PmagPy``` repository to generate the executable file. Minor changes were necessary in the ```hiddenimports``` section where I had to add a few scipy modules in order for the excutable to initialize without crashing. That version of .spec file is saved here.
 
+## A workflow that worked on 10/7/2025 for Tony Pivarunas on Windows 10
 
-I used essentially the same pmag_gui.spec in the ```PmagPy``` repository to generate the executable file. Minor changes were necessary in the ```hiddenimports``` section where I had to add a few scipy modules in order for the excutable to initialize without crashing. That version of .spec file is saved here. 
+Made a new mamba environment.
+
+```mamba create -n pmag_gui_compile python=3.9.13```
+
+Activated the environment.
+
+```mamba activate pmag_gui_compile```
+
+Used mamba to install required packages in two waves.
+
+```(pmag_gui_compile) mamba install matplotlib numpy scipy pandas```
+
+```(pmag_gui_compile) mamba install wxPython pyinstaller```
+
+Changed into my cloned PmagPy directory
+
+```cd developer```
+
+```cd Pmagpy```
+
+I used the pmag_gui.spec that is in *this* repository (NB: different than the one in the PmagPy repo).
+
+```pyinstaller pmag_gui.spec```
+
+And, voila. Popped up in a few minutes.
